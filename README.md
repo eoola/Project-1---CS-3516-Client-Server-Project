@@ -6,8 +6,8 @@ To retrieve HTML file for a webpage use commands such as:
 "./client www.google.com 80" will work for example for web server
 
 For local server open up a port using
-"./server <Port Number>"
-"./client [LOCAL HOST SERVER URL] <Filename> <Port Number>" to retrieve index.html file from server
+"./server [Port Number]"
+"./client [LOCAL HOST SERVER URL] [Filename] [Port Number]" to retrieve index.html file from server
   
 The client also takes commands like
 "./client -p [WEB SERVER URL] [PORT NUMBER]" To print the round trip time for any given connection
