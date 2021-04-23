@@ -12,9 +12,6 @@ For local server open up a port using
 The client also takes commands like
 "./client -p [WEB SERVER URL] [PORT NUMBER]" To print the round trip time for any given connection
 
-Makefile doesn't work it kept breaking
-Use rm -f client or rm -f server as necessary
-
-I didn't create executables so you could do so simply by entering the following commands:
+You could create executables so simply by entering the following commands:
 gcc -o client client.c\
 gcc -o server server.c}
